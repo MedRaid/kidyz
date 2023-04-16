@@ -39,7 +39,7 @@ function Login() {
                   <InputTextBox>
                     <TextField
                       id="Email"
-                      label={`${i18n.t('email')}`}
+                      label="email"
                       variant="outlined"
                       type="email"
                       fullWidth
@@ -51,7 +51,7 @@ function Login() {
                   <InputTextBox>
                     <TextField
                       id="pass"
-                      label={`${i18n.t('password')}`}
+                      label="password"
                       variant="outlined"
                       type="password"
                       fullWidth
@@ -88,7 +88,7 @@ function Login() {
                     variant="contained"
                     type="submit"
                     onClick={handleSubmit}>
-                    {`${i18n.t('connection')}`}
+                    connection
                   </Button>
 
                   <BtnCnxnLoading>
@@ -101,7 +101,7 @@ function Login() {
                       textDecorationColor: 'gray',
                     }}
                     href="https://google.com/">
-                    <TextLegals>{`${i18n.t('legals')}`}</TextLegals>
+                    <TextLegals>legals</TextLegals>
                   </a>
                 </Legals>
               </TextfiedsBox>
